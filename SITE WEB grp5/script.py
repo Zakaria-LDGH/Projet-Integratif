@@ -17,7 +17,7 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 #connect BD
 def create_Connection():
-    db_path = "bd_congres.db"
+    db_path = "sqlite.db"
     if not os.path.exists(db_path):
         print(f"Le fichier {db_path} n'existe pas")
         connection = None
